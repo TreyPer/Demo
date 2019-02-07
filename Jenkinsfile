@@ -10,7 +10,7 @@ pipeline {
       parallel {
         stage('unit test') {
           steps {
-            sleep 3
+            sleep 4
           }
         }
         stage('windows agent') {
